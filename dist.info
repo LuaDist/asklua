@@ -1,0 +1,15 @@
+--- This file is part of the LuaDist project
+
+name = "asklua"
+version = "0.1"
+
+desc = "AskLua provides a module that implements a help integrated system for on line use in the interactive interpreter, and for generating documentation in html and printed formats."
+author = "Julio Manuel Fernandez-Diaz"
+license = "Public domain"
+url = "http://alien.luaforge.net"
+maintainer = "Peter Drahos"
+
+depends = {
+	"lua ~> 5.1",
+	"markdown >= 0.3"
+}
