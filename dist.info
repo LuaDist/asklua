@@ -1,0 +1,43 @@
+type = "x86"
+arch = "Windows"
+author = "Julio Manuel Fernandez-Diaz"
+depends = {
+[[lua ~> 5.1]],
+[[markdown >= 0.3]],
+}
+
+desc = "AskLua provides a module that implements a help integrated system for on line use in the interactive interpreter, and for generating documentation in html and printed formats."
+version = "0.1"
+maintainer = "Peter Drahos"
+files = {
+Runtime = {
+[[lib\lua\ask.lua]],
+}
+,
+Documentation = {
+[[share\asklua\doc\\ask.html]],
+[[share\asklua\doc\\ask.pdf]],
+[[share\asklua\doc\\asklua.html]],
+[[share\asklua\doc\\asklua.pdf]],
+[[share\asklua\doc\\asklua_spanish.html]],
+[[share\asklua\doc\\asklua_spanish.pdf]],
+[[share\asklua\doc\\default.css]],
+}
+,
+Data = {
+[[share\asklua\license.txt]],
+[[share\asklua\readme.txt]],
+}
+,
+Example = {
+[[share\asklua\example\\mininum.html]],
+[[share\asklua\example\\mininum.lua]],
+[[share\asklua\example\\mininum.pdf]],
+[[share\asklua\example\\mininum_test.lua]],
+}
+,
+}
+
+license = "Public domain"
+name = "asklua"
+url = "http://alien.luaforge.net"
